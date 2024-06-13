@@ -1,0 +1,77 @@
+/* Styles pour les grands ordinateurs de bureau */
+@media only screen and (min-width: 1200px) {
+   body{
+    background-color: darkolivegreen;
+   }
+}
+
+/* Styles pour les tablettes et petits ordinateurs portables */
+@media only screen and (min-width: 600px) and (max-width: 1200px) {
+    body{
+        background-color: darkkhaki;
+       }
+}
+
+ /* Styles pour les petits appareils comme les téléphones portables */
+@media only screen and (max-width: 600px) {
+    body{
+        background-color: darkturquoise
+       }
+}
+
+
+/* Styles pour les écrans 4K et plus */
+@media only screen and (min-width: 2560px) {
+    body{
+        background-color: darkmagenta;
+    }
+}
+
+ /* Styles pour les grands écrans de bureau */
+@media only screen and (max-width: 1920px) {
+    body{
+        background-color: darkred;
+    }
+}
+
+/* Styles pour les petits écrans de bureau */
+@media only screen and (max-width: 1440px) {
+    body{
+        background-color: darkorange;
+    }
+}
+
+/* Styles pour les ordinateurs portables */
+@media only screen and (max-width: 1280px) {
+    body{
+        background-color: darkorchid;
+    }
+}
+
+/* Styles pour les tablettes en orientation paysage */
+@media only screen and (max-width: 1024px) {
+    body{
+        background-color: white;
+    }
+}
+
+/* Styles pour les petites tablettes et grands téléphones */
+@media only screen and (max-width: 768px) {
+    body{
+        background-color: darkblue;
+    }
+}
+
+/* Styles pour les téléphones portables */
+@media only screen and (max-width: 480px) {
+    body{
+        background-color: darkgreen;
+    }
+}
+
+ /* Styles pour les très petits téléphones */
+@media only screen and (max-width: 320px) {
+    body{
+        background-color: darkgrey;
+    }
+}
